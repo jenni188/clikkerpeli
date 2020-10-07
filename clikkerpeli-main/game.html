@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Game</title>
+</head>
+<body class="game">
+    <div class="game-container" id="game-containe">
+        <div class="left-item" id="left-item">           
+            <button onclick="openModal()" class="game-btn" id="game-btn">Buy characters</button>
+            <dialog id="modal" class="modal">
+                <div class="modal-content">
+                    <h2 class="game-h2-2">Characters</h2>
+                    <div class="image-container" id="image-container">
+                        <div class="item-1" id="item-1">
+                            <img src="images/ice king.png" class="ice-king" id="ice-king">
+                            <input type="button" value="buy" class="buy" id="buy" >    
+                        </div>      
+                        <div class="item-2" id="item-2">
+                            <img src="images/bmo.png" class="bmo" id="bmo">
+                            <input type="button" value="buy" class="buy" id="buy" >    
+                        </div> 
+                        <div class="item-3" id="item-3">
+                            <img src="images/jake.png" class="jake" id="jake">
+                            <input type="button" value="buy" class="buy" id="buy" >    
+                        </div> 
+                        <div class="item-4" id="item-4">
+                            <img src="images/lol.png" class="lol" id="lol">
+                            <input type="button" value="buy" class="buy" id="buy" >    
+                        </div> 
+                        <div class="item-5" id="item-5">
+                            <img src="images/lumpy.png" class="lumpy">
+                            <input type="button" value="buy" class="buy" id="buy" >    
+                        </div> 
+                        <div class="item-6" id="item-6">
+                            <img src="images/output-onlinejpgtools.png" class="rainbow">
+                            <input type="button" value="buy" class="buy" id="buy" >    
+                        </div>
+                        <div class="item-7" id="item-7">
+                            <img src="images/Princess_Bubblegum.png" class="buble">
+                            <input type="button" value="buy" class="buy" id="buy" >    
+                        </div>
+                        <button onclick="hideModalOne()">Close</button>
+                    </div>
+                </div> 
+            </dialog>
+            <button class="coins-btn" id="coin-btn" onclick="autoClick()">Auto clikker (50coins)</button>
+            <div class="top-left-item" id="top-left-item">
+                <h2 class="game-h2" id="game-h2">Coins</h2>
+                <h3 class="game-h3" id="game-h3">Coins per/s </h3>
+             </div>
+        </div>
+        <div class="mid-item" id="mid-item">
+            <h1 class="game-h1">Click to get coins!</h1>
+            <img src="images/finn.png" onclick="gainCoins()" class="finn" id="finn">
+        </div>
+        <div class="right-item" id="right-item">
+            <input type="button" value="exit" class="game-exit-btn" id="game-exit-btn"
+            onClick="self.location='start.html'">
+            
+        </div>
+        
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

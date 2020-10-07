@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Start</title>
+</head>
+<body class="start">
+    <h1 class="start-h1">The Adventure Time Clikker</h1>
+    
+    <div class="start-container" id="start-container">
+        
+          <input type="button" value="start" class="start-btn" id="start-btn"
+          onClick="self.location='game.html'">  
+          <button onclick="openModal()" class="exit-btn" id="exit-btn">exit</button>
+          <dialog id="modal" class="modal1">
+            <div class="modal-content1">
+                <h2>Ohh.. So u don't wanna play my game :(</h2>
+                <button onclick="startFunc()" id="close-exit-modal-btn" class="close-exit-modal-btn">Close</button>
+            </div> 
+        </dialog>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
