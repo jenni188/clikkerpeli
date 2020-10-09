@@ -213,7 +213,8 @@
 
 .image-container{
   display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 50% 50%;
   height: 650px;
   padding: 20px;
   grid-column-gap: 10px;
@@ -287,182 +288,31 @@
   font-size: 150%;
 }
 
-.ice-king{
-  height: 80%;
-  width: 80%;
-  padding-top: 20px;  
+.item {
+  position: relative;
+  border: dashed #aaa 1px;
+  padding-top: 20px;
 }
 
-.bmo{
-  height: 60%;
-  width: 65%;
-  padding-top: 55px;
-  padding-left: 20px;
-}
-
-.jake{
-  height:60%;
-  width: 90%;
-  padding-top: 80px;
-}
-
-.lol{
-  height: 80%;
-  width: 65%;
-  padding-top:15px;
-  padding-left: 30px;
-}
-
-.lumpy{
-  height: 60%;
+.item img {
+  display: block;
   width: 70%;
-  padding-top: 80px;
-  padding-left: 30px;
+  margin: 0 auto;
 }
 
-.rainbow{
-  height: 55%;
-  width: 100%;
-  padding-top: 60px;
-}
-
-.buble{
-  height: 90%;
-  width: 30%;
-  padding-left: 80px;
-}
-
-.buy1{
+.buy {
+  position: absolute;
+  bottom: 10px;
   background-color: #fefefe;
-  margin-top: 00px;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   padding: 10px;
   border: 1px solid black;
-  height: 35px;
-  width: 90px;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  left: 20%;
-  top: 50%;
-  transition-duration: 0.4s
-
+  transition-duration: 0.4s;
 }
 
-.buy1:hover{
+.buy:hover{
   background-color:#ff8080;
   color: black;
 }
-
-.buy2{
-  background-color: #fefefe;
-  margin-top: 00px;
-  padding: 10px;
-  border: 1px solid black;
-  height: 35px;
-  width: 90px;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  left: 34%;
-  top: 50%;
-  transition-duration: 0.4s
-}
-
-.buy2:hover{
-  background-color:#ff8080;
-  color: black;
-}
-
-.buy3{
-  background-color: #fefefe;
-  margin-top: 00px;
-  padding: 10px;
-  border: 1px solid black;
-  height: 35px;
-  width: 90px;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  left: 47%;
-  top: 50%;
-  transition-duration: 0.4s
-}
-
-.buy3:hover{
-  background-color:#ff8080;
-  color: black;
-}
-
-.buy4{
-  background-color: #fefefe;
-  margin-top: 00px;
-  padding: 10px;
-  border: 1px solid black;
-  height: 35px;
-  width: 90px;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  left: 61%;
-  top: 50%;
-  transition-duration: 0.4s
-}
-
-.buy4:hover{
-  background-color:#ff8080;
-  color: black;
-}
-
-.buy5{
-  background-color: #fefefe;
-  margin-top: 00px;
-  padding: 10px;
-  border: 1px solid black;
-  height: 35px;
-  width: 90px;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  left: 74%;
-  top: 50%;
-  transition-duration: 0.4s
-}
-
-.buy5:hover{
-  background-color:#ff8080;
-  color: black;
-}
-
-.buy6{
-  background-color: #fefefe;
-  margin-top: 00px;
-  padding: 10px;
-  border: 1px solid black;
-  height: 35px;
-  width: 90px;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  left: 20%;
-  top: 85%;
-  transition-duration: 0.4s
-}
-
-.buy6:hover{
-  background-color:#ff8080;
-  color: black;
-}
-
-.buy7{
-  background-color: #fefefe;
-  margin-top: 00px;
-  padding: 10px;
-  border: 1px solid black;
-  height: 35px;
-  width: 90px;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  left: 34%;
-  top: 85%;
-  transition-duration: 0.4s
-}
-
-.buy7:hover{
-  background-color:#ff8080;
-  color: black;
-}
-
