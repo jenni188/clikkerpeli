@@ -15,32 +15,32 @@
                     <h2 class="game-h2-2">Characters</h2>
                     <div class="image-container" id="image-container">
                         <div class="item" id="item-1">
-                            <img src="images/ice king.png" class="ice-king" id="ice-king">
-                            <input type="button" value="buy (100c)" class="buy" id="buy" >    
+                            <img src="images/ice king.png" class="ice-king" >
+                            <input type="button" value="buy (100c)"  onclick="buyfunc(100, 'ice-king')" class="buy">    
                         </div>      
                         <div class="item" id="item-2">
-                            <img src="images/bmo.png" class="bmo" id="bmo">
-                            <input type="button" value="buy (200c)" class="buy" id="buy" >    
+                            <img src="images/bmo.png" class="bmo" >
+                            <input type="button" value="buy (200c)" class="buy" onclick="buyfunc(200, 'bmo')">    
                         </div> 
                         <div class="item" id="item-3">
-                            <img src="images/jake.png" class="jake" id="jake">
-                            <input type="button" value="buy (500c)" class="buy" id="buy" >    
+                            <img src="images/jake.png" class="jake" >
+                            <input type="button" value="buy (500c)" class="buy" onclick="buyfunc(500, 'jake')">    
                         </div> 
                         <div class="item" id="item-4">
-                            <img src="images/lol.png" class="lol" id="lol">
-                            <input type="button" value="buy (600c)" class="buy" id="buy" >    
+                            <img src="images/lol.png" class="lol" >
+                            <input type="button" value="buy (600c)" class="buy" onclick="buyfunc(600, 'lol')" >    
                         </div> 
                         <div class="item" id="item-5">
                             <img src="images/lumpy.png" class="lumpy">
-                            <input type="button" value="buy (700c)" class="buy" id="buy" >    
+                            <input type="button" value="buy (700c)" class="buy" onclick="buyfunc(700, 'lumpy')" >    
                         </div> 
                         <div class="item" id="item-6">
                             <img src="images/output-onlinejpgtools.png" class="rainbow">
-                            <input type="button" value="buy (800c)" class="buy" id="buy" >    
+                            <input type="button" value="buy (800c)" class="buy" onclick="buyfunc(800, 'rainbow')" >    
                         </div>
                         <div class="item" id="item-7">
                             <img src="images/Princess_Bubblegum.png" class="buble">
-                            <input type="button" value="buy (1000c)" class="buy" id="buy" >    
+                            <input type="button" value="buy (1000c)" class="buy" onclick="buyfunc(1000, 'buble')">    
                         </div>
                         <button class="module-close" id="module-close"onclick="hideModalOne()">Close</button>
                     </div>
@@ -53,9 +53,17 @@
              </div>
         </div>
         <div class="mid-item" id="mid-item">
-            <h1 class="game-h1">Click to get coins!</h1>
+            <h1 class="game-h1">Click Finn to get coins!</h1>
+            <img src="images/output-onlinejpgtools copy.png" class="rainbow-copy" id="rainbow">
+            <img src="images/jake copy.png" class="jake-copy" id="jake">
+            <img src="images/lumpy copy.png" class="lumpy-copy" id="lumpy">
+            <img src="images/lol copy.png" class="lol-copy" id="lol">
+            <img src="images/ice king copy.png" class="ice-king-copy" id="ice-king">
             <img src="images/finn.png" onclick="gainCoins()" class="finn" id="finn">
-            <img src="images/ice king copy.png" class="ice-king-copy" id="ice-king">         
+            <img src="images/Princess_Bubblegum copy.png" class="buble-copy" id="buble">      
+            <img src="images/bmo copy.png" class="bmo-copy" id="bmo">      
+           
+            
         </div>
         <div class="right-item" id="right-item">
             <input type="button" value="exit" class="game-exit-btn" id="game-exit-btn"

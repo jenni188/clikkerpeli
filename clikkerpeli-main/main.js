@@ -15,7 +15,7 @@ let modal = document.getElementById('modal');
     }
 
     function alertStart(){
-        alert("That's what I thought");
+        alert("That's what I thought :)");
     }
 
     function startFunc(){
@@ -44,8 +44,8 @@ setInterval(function(){
 }, 1000)
 
 function autoClick(){
-    if (coins >= 10){
-        coinsPerS += 5;
+    if (coins >= 50){
+        coinsPerS += 2;
         coins -= 10;
     
     } 
@@ -59,5 +59,13 @@ function renderCoinsPerS(){
     document.getElementById("game-h3").innerHTML = "Coins per/s " + coinsPerS;
 }
 
+//osto functio
 
-
+function buyfunc(cost, id){
+    if (cost > coins){
+        alert("you don't have enough coins!")
+        return
+    }
+    coins = coins - cost
+    document.getElementById(id).style.display = "block"
+}

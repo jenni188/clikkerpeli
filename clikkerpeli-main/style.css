@@ -240,6 +240,11 @@
   transform: translate(-50%, -50%);
   left: 50%;
   top: 55%;
+  z-index: 1;
+}
+
+.finn:active{
+  transform: translate(-50%, -49%);
 }
 
 
@@ -288,9 +293,17 @@
   font-size: 150%;
 }
 
+.moi{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 30%;
+  text-align: center;
+  font-size: 150%;
+}
+
 .item {
   position: relative;
-  border: dashed #aaa 1px;
   padding-top: 20px;
 }
 
@@ -323,8 +336,69 @@
   height: 350px;
   width: 300px;
   position: absolute;
-  left: 38%;
+  left: 41%;
   top: 60%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.bmo-copy{
+  height: 150px;
+  width: 120px;
+  position: absolute;
+  left: 35%;
+  top: 73%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.jake-copy{
+  height: 400px;
+  width: 450px;
+  position: absolute;
+  left: 57%;
+  top: 54%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.lol-copy{
+  height: 430px;
+  width: 300px;
+  position: absolute;
+  left: 33%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.buble-copy{
+  height: 400px;
+  width: 130px;
+  position: absolute;
+  left: 56%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  display: none;
+
+}
+
+.lumpy-copy{
+  height: 220px;
+  width: 200px;
+  position: absolute;
+  left: 30%;
+  top: 29%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+.rainbow-copy{
+  height: 500px;
+  width: 1000px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
   transform: translate(-50%, -50%);
   display: none;
 }
