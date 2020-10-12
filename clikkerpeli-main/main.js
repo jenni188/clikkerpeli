@@ -46,7 +46,7 @@ setInterval(function(){
 function autoClick(){
     if (coins >= 50){
         coinsPerS += 2;
-        coins -= 10;
+        coins -= 50;
     
     } 
     else{
